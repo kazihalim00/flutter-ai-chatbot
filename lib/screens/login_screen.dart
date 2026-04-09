@@ -20,6 +20,7 @@ class LoginScreen extends StatelessWidget {
                 controller: email,
                 decoration: const InputDecoration(labelText: "Email")),
             TextField(
+                obscureText: true,
                 controller: pass,
                 decoration: const InputDecoration(labelText: "Password")),
             const SizedBox(height: 20),
